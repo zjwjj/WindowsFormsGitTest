@@ -17,12 +17,12 @@ namespace WindowsFormsGitTest
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
             textBox1.Text = "你好";
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Button2_Click(object sender, EventArgs e)
         {
             textBox1.Text = "这是新增一个按钮后的点击";
         }

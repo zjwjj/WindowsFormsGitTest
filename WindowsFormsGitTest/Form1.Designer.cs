@@ -28,46 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.Button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.Button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // Button1
             // 
-            this.button1.Location = new System.Drawing.Point(216, 246);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(306, 120);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Button1.Location = new System.Drawing.Point(216, 246);
+            this.Button1.Name = "Button1";
+            this.Button1.Size = new System.Drawing.Size(306, 120);
+            this.Button1.TabIndex = 0;
+            this.Button1.Text = "button1";
+            this.Button1.UseVisualStyleBackColor = true;
+            this.Button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(289, 79);
+            this.textBox1.Location = new System.Drawing.Point(216, 94);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 35);
+            this.textBox1.Size = new System.Drawing.Size(415, 35);
             this.textBox1.TabIndex = 1;
             // 
-            // button2
+            // Button2
             // 
-            this.button2.Location = new System.Drawing.Point(564, 226);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(182, 164);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.Button2.Location = new System.Drawing.Point(564, 226);
+            this.Button2.Name = "Button2";
+            this.Button2.Size = new System.Drawing.Size(182, 164);
+            this.Button2.TabIndex = 2;
+            this.Button2.Text = "button2";
+            this.Button2.UseVisualStyleBackColor = true;
+            this.Button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.Button2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Button1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -77,9 +77,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Button1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button Button2;
     }
 }
 
